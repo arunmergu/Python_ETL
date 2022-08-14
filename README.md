@@ -1,6 +1,7 @@
 # Python_ETL
 
 STEPS REQUIRED TO EXECUTE PYTHON_ETL CODE
+-----------------------------------------
 
 1.)Firstly need to download and setup python 3.9 SDK in Intellij
 
