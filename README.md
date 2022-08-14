@@ -23,7 +23,7 @@ Data base Name
 Collection Name
 File path where csv file is exported
 
-Command to execute the Python_ETL
+*********** Command to execute the Python_ETL **************
 
 Python Python_ETL.py configfile.txt
 
