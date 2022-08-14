@@ -11,13 +11,20 @@ configparser
 pandas
 pymongo
 
-3.) We are passing config file as argument to main class since we can make changes with our disturbing the code
+3.) We are creating confile.txt to pass the below parameters 
+
+We are passing config file as argument to main class since we can make changes with our disturbing the code
 So, here the main entities which are passed as arguments in config file are
 
 API_URL
-HOST NAME
-PORT NUMBER
+Host name
+Port name
 Data base Name
 Collection Name
 File path where csv file is exported
+
+Command to execute the Python_ETL
+
+Python Python_ETL.py configfile.txt
+
 
