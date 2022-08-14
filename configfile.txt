@@ -1,0 +1,7 @@
+[My Section]
+CSV_WRITEPATH = /users/arunmergu/Documents/mongoexport.csv
+DB_NAME = sampleDB
+COLL_NAME = sampleColl
+API_URL=https://gorest.co.in/public/v2/users
+Host_name=localhost
+Port_no=27017
