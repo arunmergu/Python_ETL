@@ -28,4 +28,38 @@ File path where csv file is exported
 
 Python Python_ETL.py configfile.txt
 
+FUNCTIONALITY OF CODE
+---------------------
+
+----> main.py
+Is the main class of code where execution starts. We should give config file location as first argument.
+
+----> ETLDemo.py
+There is etlpipe class which contains multiple fucntions to have ETL pipeline
+
+getApiData()
+
+It accepts one argument which is api url, which it reads from config file.
+It read the data from given api url through requests api and returns JSON object.
+
+mongodb_conn()
+
+It accepts two arguments one is host name and port number.
+We use pymongo to install library. We connect to mongoclient.
+
+ExtractDB()
+
+It accepts four arguments one is ClientConn, API Data, Data base name and collection name.
+It inserts or update the data in collection with given database and collection name in config file.
+we have created index on column id to avoid duplicate insertion.
+
+mongo_export_to_file()
+
+It takes two parameters one is collection name and file location where CSV file need to be saved. It reads from config file.
+we are converting the list to pandas dataframe to convert to CSV file.
+
+----> Configfile.py
+
+we are using config parser library to get the parameters from configfile.txt
+
 
